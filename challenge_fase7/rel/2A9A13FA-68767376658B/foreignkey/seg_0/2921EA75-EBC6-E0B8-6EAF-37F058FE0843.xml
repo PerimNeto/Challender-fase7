@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2921EA75-EBC6-E0B8-6EAF-37F058FE0843" containerWithKeyObject="82C67214-9A75-D9A0-17FF-F581EBE79A64" localFKIndex="9D611E68-D94A-8DFA-890B-790FF8F9E19C" name="T_VAGA_T_ESTACIONAMENTO_FK">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>57A5FB5E-573A-B4A2-3388-32DCF051E4F7</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<referredTableLongName>T_ESTACIONAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6FA8273-8979-184A-C85A-18C77C331DD7</referredTableID>
+<keyObject>EB8BAB8A-59F9-B275-0E64-7883EFB6E2D6</keyObject>
+<referredKeyID>EB8BAB8A-59F9-B275-0E64-7883EFB6E2D6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estacionamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

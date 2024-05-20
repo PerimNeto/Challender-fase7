@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEFDC574-CE94-5EC2-3140-14D130E8F183" name="T_USUARIO">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<generatorID>AD9FD0B6-D2A8-8A22-71F2-D26257FB4AE5</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="34411049-B673-C997-EF41-F110D276291D">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<generatorID>FA8BDDAC-8347-5F31-9ECE-32515330308B</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estacionamento" id="71F29446-F278-CA99-2090-0F2E4790AEC6">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<generatorID>BD7EE865-204D-1F5F-9231-231CF89DAB0E</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="83D9EBEB-9320-19FE-7A3F-845489A3DE55">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<generatorID>44B68C58-8E9F-748B-F5FB-2BAEE844F360</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="F6B8360A-5950-27F4-A3C7-21B63AE8C16A">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<generatorID>00DBA037-BC83-FAF1-96EE-1521FCE4064B</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55A32E68-BFE1-A828-D04E-50629822D72A" name="T_USUARIO_PK">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<generatorID>0D06B4AD-BAB3-616A-9BCD-AC5CF864B57D</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34411049-B673-C997-EF41-F110D276291D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

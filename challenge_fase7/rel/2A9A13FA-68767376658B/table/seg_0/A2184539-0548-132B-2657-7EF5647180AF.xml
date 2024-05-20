@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2184539-0548-132B-2657-7EF5647180AF" name="T_VAGA_STATUS">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>55D0CD02-C1F4-7919-D5CF-8B0CFCE0EE2E</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vaga" id="2506F74B-AFF3-9836-0780-9A72293F62C7">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>A76763EF-3925-844C-4739-A86FE0697325</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_veiculo_1" id="3ED73812-C2F8-A692-6267-8A1F1874E92E">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>0413CA94-9AB0-7061-3153-E7BECFBE0E34</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="D6E641D1-B4C2-C95F-0704-B58BE403AB0A">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>2C4B4E1A-98C8-6B4D-19D8-104C1C95EC02</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_VEICULO_id_veiculo" id="AD7D0ED1-B522-5F07-D374-D71C03C3FB47">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>DE02EC3F-DC72-044B-ECA6-E0433BB273DF</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6733518-73DF-5535-A106-FEC9618AF322" referredColumn="87C91007-AEF3-002A-61C9-2C5E5CBF1AA8"/>
+</associations>
+</Column>
+<Column name="T_VAGA_id_vaga" id="B2359428-5DAA-15EE-B067-950D35EEDB92">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>40D7B60C-1496-3D2A-3DC8-0D014506DAA6</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99E513B5-D502-2944-B5F7-8F4171D4E683" referredColumn="ED518A60-7D82-0D9E-86AC-07DE4AD5C032"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1D86A6C-B297-AAF1-163C-6DFC076875DF" name="T_VAGA_STATUS_PK">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>0269BA14-BF55-CDAA-7799-E6E46FF7EBD6</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2506F74B-AFF3-9836-0780-9A72293F62C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6E28D37-CBF2-A379-E298-334489BA87A3" name="T_VAGA_STATUS_T_VAGA_FK">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>E6CB6F28-0922-6603-DA34-CAA610AB0557</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2359428-5DAA-15EE-B067-950D35EEDB92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66EE924B-8D0B-EBCC-0AB5-06C7516E77FF" name="T_VAGA_STATUS_T_VEICULO_FK">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:28:26 UTC</createdTime>
+<generatorID>1071D7FE-7FF8-B9BF-E5F7-AD43828AD358</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD7D0ED1-B522-5F07-D374-D71C03C3FB47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

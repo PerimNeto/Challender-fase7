@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7515CFFD-6846-F57A-F675-BA89AE9FB05E" containerWithKeyObject="B377BC20-F3F6-E387-41BA-73946DB7BFEC" localFKIndex="9B07B4F5-DD71-A0C6-2F5C-7AF9CD40B416" name="T_VAGA_STATUS_T_VAGA_FK">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<generatorID>E6CB6F28-0922-6603-DA34-CAA610AB0557</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<referredTableLongName>T_VAGA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>860BAE55-AE37-617B-B90F-0092CCAD8B78</referredTableID>
+<keyObject>F42EFCDF-E6BD-0A5C-EEDC-9010CD2B7926</keyObject>
+<referredKeyID>F42EFCDF-E6BD-0A5C-EEDC-9010CD2B7926</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_vaga</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
