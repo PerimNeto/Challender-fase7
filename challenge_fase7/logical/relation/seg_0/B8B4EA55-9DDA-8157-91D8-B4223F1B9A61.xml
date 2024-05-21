@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="B8B4EA55-9DDA-8157-91D8-B4223F1B9A61">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 23:41:06 UTC</createdTime>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<engineerTo>
+<item key="EE246818-8745-6957-39AB-843CEBFEA43B" value="true"/>
+</engineerTo>
+<sourcePk>0269BA14-BF55-CDAA-7799-E6E46FF7EBD6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>55D0CD02-C1F4-7919-D5CF-8B0CFCE0EE2E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B04E9D37-C4D7-5E9A-D6ED-FD2F213B5DA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

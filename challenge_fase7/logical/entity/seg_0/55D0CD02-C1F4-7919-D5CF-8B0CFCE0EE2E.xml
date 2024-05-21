@@ -5,7 +5,7 @@
 <generatorID>EBFC0053-745F-A867-895D-9B877C1B2EA7</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <engineerTo>
-<item key="2A9A13FA-19C4-7936-705A-68767376658B" value="true"/>
+<item key="EE246818-8745-6957-39AB-843CEBFEA43B" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@
 <generatorID>9501A14C-2527-234F-B9C9-7BCC2FD0C8D2</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <engineerTo>
-<item key="2A9A13FA-19C4-7936-705A-68767376658B" value="true"/>
+<item key="EE246818-8745-6957-39AB-843CEBFEA43B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,7 +36,7 @@
 <generatorID>21E623A1-59DF-3AF8-24E8-7EB383712E4C</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <engineerTo>
-<item key="2A9A13FA-19C4-7936-705A-68767376658B" value="true"/>
+<item key="EE246818-8745-6957-39AB-843CEBFEA43B" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,7 +50,7 @@
 <generatorID>254AAAEC-C37E-2EFF-B2CA-B0585E285E8C</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <engineerTo>
-<item key="2A9A13FA-19C4-7936-705A-68767376658B" value="true"/>
+<item key="EE246818-8745-6957-39AB-843CEBFEA43B" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,27 +64,12 @@
 <generatorID>1071D7FE-7FF8-B9BF-E5F7-AD43828AD358</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <engineerTo>
-<item key="2A9A13FA-19C4-7936-705A-68767376658B" value="true"/>
+<item key="EE246818-8745-6957-39AB-843CEBFEA43B" value="true"/>
 </engineerTo>
 <referedAttribute>FE8CB5B2-939F-F3B9-AAC9-B30EC321B13B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_vaga1" id="40D7B60C-1496-3D2A-3DC8-0D014506DAA6">
-<createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:23:12 UTC</createdTime>
-<generatorID>E6CB6F28-0922-6603-DA34-CAA610AB0557</generatorID>
-<ownerDesignName>challenge_fase7</ownerDesignName>
-<engineerTo>
-<item key="2A9A13FA-19C4-7936-705A-68767376658B" value="true"/>
-</engineerTo>
-<referedAttribute>653BFB6B-F074-032E-E566-8F54F0A7BA65</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -95,7 +80,7 @@
 <generatorID>488FC1C2-7269-40FB-F464-D8CCA8C8A2E7</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <engineerTo>
-<item key="2A9A13FA-19C4-7936-705A-68767376658B" value="true"/>
+<item key="EE246818-8745-6957-39AB-843CEBFEA43B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_tag_ticket_t_veiculo_fk" directorySegmentName="seg_0" id="0E0C4E83-B537-D289-1887-15E9E1B58693">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="71ADD804-D6E2-A942-3692-CFB362D3B9C4">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-15 02:32:52 UTC</createdTime>
-<generatorID>99FFF4A9-3B8A-5E26-FAFE-30A2A8C3C773</generatorID>
+<createdTime>2024-05-20 23:41:46 UTC</createdTime>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <engineerTo>
-<item key="720FED48-01E5-C019-03FA-E8E021841D5F" value="true"/>
+<item key="EE246818-8745-6957-39AB-843CEBFEA43B" value="true"/>
 </engineerTo>
 <sourcePk>B466F230-3035-F885-2F2A-EEE339FD6F52</sourcePk>
 <identifying>false</identifying>
@@ -13,7 +12,7 @@
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>EA4A636B-BD88-3383-6CEC-E85681275D53</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>6D4D92A2-B9B0-E7B3-6719-418ECED0956C</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

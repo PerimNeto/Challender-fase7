@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C628BE9-29C2-327E-3506-86E06037BFC9" name="T_ESTACIONAMENTO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9032D81C-99E4-18E0-5002-B24ECEDDA9CA" name="T_ESTACIONAMENTO">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:11 UTC</createdTime>
 <generatorID>7FDBBEB3-4425-7BC8-8BA4-4A1BB861211B</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_estacionamento" id="BAAD7B23-1F6A-974A-B42D-999D8C403520">
+<Column name="id_estacionamento" id="07C94BBD-60EC-256B-2778-E104A62E9F7C">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>3D88329F-F055-6CF1-9E0D-9D795F5A699E</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="andar" id="49B247A6-F1A2-C247-43C8-560B3401230D">
+<Column name="andar" id="FC48D05D-E767-8BF1-8499-02E518DD4FE7">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>79686750-B193-A64A-6B6A-77C704522013</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="corredor" id="68CD7DB6-745C-024A-2FFE-B434A55830C0">
+<Column name="corredor" id="131B914E-83AE-8358-816C-F71FB5AD91A3">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>649ACFFB-9122-E8C5-6700-3E9E52DBF6F9</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -45,9 +45,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_vaga" id="5D128F0C-BB89-9DC2-997D-F52E1CA877FB">
+<Column name="id_vaga" id="87351FD9-A729-DDC7-DCFE-1F44E929ED0D">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>BB1528C8-F38A-910A-3151-7D3B2BAFC661</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="endereco" id="FF35D1DB-4C18-21E0-002B-E3FEAABCAD33">
+<Column name="endereco" id="9D9A6E91-320D-789B-41A7-05075302241E">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>87144C37-C767-5E24-47F6-B7058FC539B8</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -71,9 +71,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="local_entrada" id="4074A59C-1D29-66C9-DB88-3CB4BC58B9C4">
+<Column name="local_entrada" id="088BBC79-C34A-39AC-5466-318C86FF3DAF">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>DC4AAB70-2438-BFE6-855A-31606B182EBF</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -84,9 +84,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="local_saida" id="7BD0B0D1-66DB-54AC-5B6A-5EF10D34ABEB">
+<Column name="local_saida" id="5C10C2AB-D00C-C0A7-AB9E-3685E450F18D">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>0F83FA22-4753-1A69-66EC-510DDD5EF42D</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -97,9 +97,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="valor_hora" id="C452A910-442B-249B-BA4E-A578F1419F5D">
+<Column name="valor_hora" id="1F72FACB-A6A3-6623-7F35-35D9FD60E49D">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>FC47E46E-D334-38AC-84AD-5A71238ECC3C</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -109,9 +109,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="valor_dia" id="5400FEF4-D979-835A-AF25-79760AAB8584">
+<Column name="valor_dia" id="ABF06C36-2273-19D8-5023-A49EE40D6664">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>F210DED3-9ECD-325D-B66A-8CB6F179F8AA</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -123,16 +123,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FAC638E3-7CB5-A019-357F-0F0C2F6D33E2" name="T_ESTACIONAMENTO_PK">
+<ind_PK_UK id="F2A576FB-CC9D-2FA9-B58A-3D682EDF40A1" name="T_ESTACIONAMENTO_PK">
 <createdBy>NETO</createdBy>
-<createdTime>2024-05-20 22:56:23 UTC</createdTime>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
 <generatorID>0E54CB32-2D5E-8939-41A7-B9D0A7D7DB5C</generatorID>
 <ownerDesignName>challenge_fase7</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BAAD7B23-1F6A-974A-B42D-999D8C403520"/>
+<colUsage columnID="07C94BBD-60EC-256B-2778-E104A62E9F7C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

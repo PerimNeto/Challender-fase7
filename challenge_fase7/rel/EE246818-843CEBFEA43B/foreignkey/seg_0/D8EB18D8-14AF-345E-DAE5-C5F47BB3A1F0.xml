@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8EB18D8-14AF-345E-DAE5-C5F47BB3A1F0" containerWithKeyObject="A1B83508-615F-22AA-9FC4-35E8C91C147D" localFKIndex="CE8F3C43-A377-C33E-0546-2847B50036E9" name="T_TAG_TICKET_T_VEICULO_FK">
+<createdBy>NETO</createdBy>
+<createdTime>2024-05-20 23:46:12 UTC</createdTime>
+<generatorID>71ADD804-D6E2-A942-3692-CFB362D3B9C4</generatorID>
+<ownerDesignName>challenge_fase7</ownerDesignName>
+<referredTableLongName>T_VEICULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>26318072-7C08-A521-BA0E-7177CFF5A24B</referredTableID>
+<keyObject>030F09BC-6B72-F338-2DF0-770E5768B003</keyObject>
+<referredKeyID>030F09BC-6B72-F338-2DF0-770E5768B003</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_veiculo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
